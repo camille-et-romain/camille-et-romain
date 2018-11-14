@@ -4072,3 +4072,9 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+a.lien-stylay {
+    font-weight: 600;
+    color: #5e9a8e;
+}
