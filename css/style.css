@@ -1729,6 +1729,7 @@ a:focus {
 .hero .wedding-announcement .couple-name-merried-text {
   display: table-cell;
   vertical-align: middle;
+  padding-top: 110px;
 }
 
 .hero .wedding-announcement .couple-name-merried-text h2 {
