@@ -2521,6 +2521,14 @@ a:focus {
 /*--------------------------------------------------------------
 #0.8	story-section
 --------------------------------------------------------------*/
+.story-section .story-timeline .event:nth-child(odd) .with-icon > * {
+  padding-right: 20px;
+}
+
+.story-section .story-timeline .event:nth-child(odd) .with-icon i {
+  right: 0;
+}
+
 .story-section .story-timeline {
   position: relative;
 }
@@ -2657,7 +2665,7 @@ a:focus {
   }
 }
 
-.story-section .story-timeline .text-holder .fa {
+.story-section .story-timeline .text-holder .heart .fa {
   color: #fff;
 }
 
@@ -2810,7 +2818,6 @@ a:focus {
 #1.0	events-section
 --------------------------------------------------------------*/
 .events-section .event {
-  overflow: hidden;
 }
 
 .events-section .event + .event {
