@@ -3458,7 +3458,7 @@ a:focus {
 .getting-there-section .content h3,
 .getting-there-section .content p,
 .getting-there-section .content a,
-.getting-there-section .content ul {
+.getting-there-section ul {
   color: #fff;
 }
 
@@ -3477,7 +3477,7 @@ a:focus {
   text-align: center;
 }
 
-.getting-there-section .content ul {
+.getting-there-section ul {
   list-style-type: inherit;
 }
 
