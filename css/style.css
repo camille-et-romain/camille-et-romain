@@ -2011,7 +2011,8 @@ a:focus {
   background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
-  padding: 160px 0;
+  padding-top: 270px;
+  padding-bottom: 60px;
   position: relative;
 }
 
@@ -2049,8 +2050,6 @@ a:focus {
   font-size: 3.72222rem;
   color: #fff;
   margin: 0 0 0.3em;
-  padding: 0 250px;
-  text-transform: capitalize;
   letter-spacing: 5px;
 }
 
