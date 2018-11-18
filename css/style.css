@@ -3111,7 +3111,6 @@ a:focus {
   font-size: 16px;
   font-size: 0.88889rem;
   color: #969494;
-  text-transform: capitalize;
   display: block;
 }
 
@@ -3458,8 +3457,29 @@ a:focus {
 }
 
 .getting-there-section .content h3,
-.getting-there-section .content p {
+.getting-there-section .content p,
+.getting-there-section .content a,
+.getting-there-section .content ul {
   color: #fff;
+}
+
+.getting-there-section .logements-details p,
+.getting-there-section .logements-details a {
+  color: rgb(255, 255, 255);
+}
+
+.getting-there-section .content ul.info {
+  list-style: none;
+  position: relative;
+  padding-right: 22px;
+}
+.getting-there-section .content ul.info i {
+  width: 16px;
+  text-align: center;
+}
+
+.getting-there-section .content ul {
+  list-style-type: inherit;
 }
 
 @media (max-width: 1199px) {
@@ -3504,7 +3524,6 @@ a:focus {
 @media screen and (min-width: 992px) {
   .getting-there-section .content > .col:first-child {
     padding-right: 75px;
-    text-align: right;
     border-right: 1px solid #548a7f;
   }
 }
@@ -3527,7 +3546,11 @@ a:focus {
 #1.5	gift-registration-section
 --------------------------------------------------------------*/
 .gift-registration-section {
-  text-align: center;
+}
+
+.gift-registration-section ul {
+  color: #767878;
+  list-style: inherit;
 }
 
 .gift-registration-section .gif-registration-slider {
