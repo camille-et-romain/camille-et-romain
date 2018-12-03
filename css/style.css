@@ -2208,6 +2208,10 @@ a:focus {
 /*--------------------------------------------------------------
 #0.6	wedding-couple-section
 --------------------------------------------------------------*/
+.wedding-couple-section {
+  padding-top: 0;
+}
+
 .wedding-couple-section .gb {
   overflow: hidden;
 }
